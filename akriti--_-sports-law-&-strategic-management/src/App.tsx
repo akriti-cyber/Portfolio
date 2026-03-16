@@ -160,7 +160,7 @@ const Hero = () => {
         >
           <div className="absolute inset-0 border border-white/10 translate-x-6 translate-y-6 -z-10" />
           <img 
-            src="/public/Profile.jpeg" 
+            src="/Profile.jpeg" 
             alt="Akriti Singh Professional" 
             className="w-full h-full object-cover transition-all duration-700"
             referrerPolicy="no-referrer"
@@ -177,13 +177,13 @@ const Hero = () => {
 
 const LogoTicker = () => {
   const logos = [
-    { name: "PCI", url: "/public/PCI.png" },
-    { name: "WAKO India", url: "/public/Wako.jpeg" },
-    { name: "NADA", url: "/public/NADA.png" },
-    { name: "UCC India", url: "/public/UCC.png" }, 
-    { name: "Kickboxing Super League", url: "/public/KSL.png" }, 
-    { name: "Pride Hotels", url: "/public/Pride Hotel.png" },
-    { name: "TMA", url: "/public/TMA.jpeg" },
+    { name: "PCI", url: "/PCI.png" },
+    { name: "WAKO India", url: "/Wako.jpeg" },
+    { name: "NADA", url: "/NADA.png" },
+    { name: "UCC India", url: "/UCC.png" }, 
+    { name: "Kickboxing Super League", url: "/KSL.png" }, 
+    { name: "Pride_Hotels", url: "/Pride_Hotel.png" },
+    { name: "TMA", url: "/TMA.jpeg" },
   ];
 
   return (
@@ -318,7 +318,7 @@ const Journey = () => {
           <div className="relative">
             <div className="aspect-[3/4] bg-stone-900 overflow-hidden">
               <img 
-                src="/public/Journey.jpeg" 
+                src="/Journey.jpeg" 
                 alt="Athlete Journey" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -378,15 +378,15 @@ const Projects = () => {
       title: "UNESCO Chair on Legal Dimensions of Clean Sports - National Law University, Delhi",
       category: "Legal & IP",
       desc: "Authored the formal Recommendation on National Tribunal Rules 2025 for submission to the Ministry of Youth Affairs and Sports. Applied principles of statutory interpretation to refine the language of the rules, mitigating potential legal loopholes in tribunal jurisdiction. Focused on Conditions of Services.",
-      image: "/public/UNESCO.png",
+      image: "/UNESCO.png",
       icon: <Globe size={18} />,
       meta: "• Legal Research • Legislative Drafting • National Sports Governance Act "
     },
     {
-      title: "World Para-Athletics 2025",
+      title: "World_Para_Athletics 2025",
       category: "Operations & MC",
       desc: "During the World Para Athletics, 27th September to 5th October 2025 at JLN Stadium, New Delhi, developed streamlined workflows for sample collection and chain-of-custody that minimised athlete downtime while maximising procedural accuracy.\n\nRisk Mitigation: Conducted proactive gap analysis of existing anti-doping infrastructures to preemptively address logistical bottlenecks in a para-sport context.\n\nStakeholder Management: Acted as the primary liaison between NADA, international technical officials, and elite athletic support personnel to maintain a transparent, clean-sport ecosystem.",
-      image: "/public/World Para-Athletics.jpeg",
+      image: "/World_Para_Athletics.jpeg",
       colorImage: true,
       icon: <Briefcase size={18} />,
       meta: "Anti-Doping Service Compliance & Coordination • Operational Resilience"
@@ -395,7 +395,7 @@ const Projects = () => {
       title: "Decathlon India - “SMART - Sales Management & Retail Transformation” Project",
       category: "Integrity",
       desc: "I challenged the industry-standard Economic Order Quantity (EOQ) model, proving its inadequacy in handling the rapid product lifecycles of seasonal sports apparel.Exogenous Data Ingestion: The analysis integrated non-traditional variables—such as localized weather patterns, gender peercentage and footfall, major league tournament schedules, and athlete-driven social media sentiment—to identify latent demand drivers.",
-      image: "/public/Decathlon.png",
+      image: "/Decathlon.png",
       colorImage: true,
       icon: <ShieldCheck size={18} />,
       meta: "ABC Analysis  • Economic Order Quantity • SKU Rationalization "
@@ -407,13 +407,13 @@ const Projects = () => {
       title: "Kickboxing Super League (KSL)",
       category: "Live Project",
       desc: "Member of Governing Council. Role to oversee operations and compliance of the league including Franchises and Sponsors Strategy.",
-      image: "/public/KSL.png"
+      image: "/KSL.png"
     },
     {
       title: "Ministry of Food Processing Industries (MOFPI)",
       category: "Live Project",
       desc: "Member of Special Task Force of Ministry.Empirical Research on delegation to Self Help Groups/Anganwadi Workers of Community Enterprises to distribure processed food.",
-      image: "/public/MOFPI.png"
+      image: "/MOFPI.png"
     }
   ];
 
